@@ -4,12 +4,12 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "build myApp",
             "command": "dotnet",
             "type": "shell",
             "args": [
                 "build",
-                "C:\\Users\\chien_hq\\Documents\\Code\\MixRepos\\src\\web\\myApp\\myApp.csproj",
+                "C:\\Users\\chien_hq\\Documents\\Code\\MixRepos\\src\\web\\dotnet\\myApp.csproj",
                 // Ask dotnet build to generate full paths for file names.
                 "/property:GenerateFullPaths=true",
                 // Do not generate summary otherwise it leads to duplicate errors in Problems panel
@@ -20,6 +20,6 @@
                 "reveal": "silent"
             },
             "problemMatcher": "$msCompile"
-        }
+        }        
     ]
 }
